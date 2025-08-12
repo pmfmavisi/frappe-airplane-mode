@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2025-08-12 10:49:56.726476",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "founding_year",
+  "customer_care",
+  "column_break_pobi",
+  "headquarters"
+ ],
+ "fields": [
+  {
+   "fieldname": "founding_year",
+   "fieldtype": "Int",
+   "label": "Founding Year",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "customer_care",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Care",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_pobi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "headquarters",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Headquarters",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-12 12:09:45.443392",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Airline",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
