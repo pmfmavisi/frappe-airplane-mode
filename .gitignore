@@ -1,7 +1,11 @@
-.DS_Store
+# Python
 *.pyc
-*.egg-info
-*.swp
-tags
-node_modules
-__pycache__
+__pycache__/
+
+# Node modules (if any)
+node_modules/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
