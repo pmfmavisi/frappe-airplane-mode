@@ -40,6 +40,7 @@
    "reqd": 1
   },
   {
+   "fetch_from": "source_airport.code",
    "fieldname": "source_airport_code",
    "fieldtype": "Read Only",
    "in_list_view": 1,
@@ -66,6 +67,7 @@
    "reqd": 1
   },
   {
+   "fetch_from": "destination_airport.code",
    "fieldname": "destination_airport_code",
    "fieldtype": "Read Only",
    "in_list_view": 1,
@@ -127,7 +129,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-08-13 09:43:25.558270",
+ "modified": "2025-08-19 15:26:00.637192",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
